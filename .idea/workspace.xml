@@ -2,68 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="273d15ff-7a35-40d2-aa31-23e28f03299b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.travis/github_deploy_key.enc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tile-wide.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.bowerrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.github/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.github/SUPPORT.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/yoTest2.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jscsrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.yo-rc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.babel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modernizr-config.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/browserconfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/doc/TOC.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/doc/css.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/doc/extend.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/doc/faq.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/doc/html.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/doc/js.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/doc/misc.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/doc/usage.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/humans.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/plugins.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/site.webmanifest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/file_content.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/file_existence.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -235,12 +174,12 @@
       <option name="presentableId" value="Default" />
       <updated>1521737053137</updated>
       <workItem from="1521737054386" duration="1344000" />
-      <workItem from="1522074790232" duration="1346000" />
+      <workItem from="1522074790232" duration="1674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2690000" />
+    <option name="totallyTimeSpent" value="3018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="24" width="1926" height="1059" extended-state="6" />
