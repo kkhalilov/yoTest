@@ -1,20 +1,13 @@
 /*!
- * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
- * Copyright 2011-2017 The Bootstrap Authors
- * Copyright 2011-2017 Twitter, Inc.
+ * Bootstrap v4.0.0 (https://getbootstrap.com)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-
-// Core variables and mixins
-@import "custom";
+@import "../../bower_components/bootstrap/scss/functions";
 @import "../../bower_components/bootstrap/scss/variables";
 @import "../../bower_components/bootstrap/scss/mixins";
-
-// Reset and dependencies
-@import "../../bower_components/bootstrap/scss/normalize";
-@import "../../bower_components/bootstrap/scss/print";
-
-// Core CSS
+@import "../../bower_components/bootstrap/scss/root";
 @import "../../bower_components/bootstrap/scss/reboot";
 @import "../../bower_components/bootstrap/scss/type";
 @import "../../bower_components/bootstrap/scss/images";
@@ -23,8 +16,6 @@
 @import "../../bower_components/bootstrap/scss/tables";
 @import "../../bower_components/bootstrap/scss/forms";
 @import "../../bower_components/bootstrap/scss/buttons";
-
-// Components
 @import "../../bower_components/bootstrap/scss/transitions";
 @import "../../bower_components/bootstrap/scss/dropdown";
 @import "../../bower_components/bootstrap/scss/button-group";
@@ -41,14 +32,12 @@
 @import "../../bower_components/bootstrap/scss/progress";
 @import "../../bower_components/bootstrap/scss/media";
 @import "../../bower_components/bootstrap/scss/list-group";
-@import "../../bower_components/bootstrap/scss/responsive-embed";
 @import "../../bower_components/bootstrap/scss/close";
-
-// Components w/ JavaScript
 @import "../../bower_components/bootstrap/scss/modal";
 @import "../../bower_components/bootstrap/scss/tooltip";
 @import "../../bower_components/bootstrap/scss/popover";
 @import "../../bower_components/bootstrap/scss/carousel";
-
-// Utility classes
 @import "../../bower_components/bootstrap/scss/utilities";
+@import "../../bower_components/bootstrap/scss/print";
+@import "../../bower_components/bootstrap/scss/bootstrap-grid";
+@import "../../bower_components/bootstrap/scss/bootstrap-reboot";
