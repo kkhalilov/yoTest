@@ -9,11 +9,132 @@
 
 /* Space out content a bit */
 body {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow Condensed";
+}
+.navbar {
+  margin: 0  80px;
+  .main-logo {
+    margin-left: 100px;
+  }
+  .header-logo-img {
+    margin: 16px 0 16px 0;
+    line-height: 19px;
+  }
+  .navbar-brand {
+    position: relative;
+    font-size: 26px;
+    padding: 0 0 0 35px;
+  }
+  .navbar-brand:before {
+    background: url("../images/microsoft.png") no-repeat;
+    width: 32px;
+    height: 32px;
+    content: '';
+    left: 0;
+    top: 4px;
+    position: absolute;
+  }
+  .navbar-collapse {
+    text-transform: uppercase;
+    .nav-link {
+      color: #2B2B2B;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19px;
+    }
+    .navbar-nav {
+      display: flex;
+      justify-content: space-between;
+      width: 895px;
+      margin: 0 auto;
+    }
+    .search {
+      position: relative;
+      color: #aaa;
+      font-size: 16px;
+      input {
+        width: 250px;
+        height: 32px;
+        background: #fcfcfc;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+        box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+      }
+      input { text-indent: 32px;}
+      .fa-search {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+      }
+      .input-search {
+        height: 34px;
+        width: 198px;
+        border: 1px solid #979797;
+        opacity: 0.5;
+        border-radius: 17px;
+        color: #9e9e9e !important;
+      }
+    }
+    .sign-in {
+      cursor: pointer;
+      margin-right: 10px;
+    }
+    .fa-cart-arrow-down {
+      color: #959595;
+    }
+  }
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1500px) {
+  .navbar {
+    margin: 0;
+    .main-logo {
+      margin-left: 0;
+    }
+  }
+}
+@media only screen and (max-width: 1350px) {
+  .navbar-nav {
+    .navbar-nav {
+      display: flex;
+      justify-content: space-between;
+      width: 200px;
+      margin: 0 auto;
+    }
+  }
+}
+/*
+!* Everything but the jumbotron gets side spacing for mobile first views *!
 .header,
 .marketing,
 .footer {
@@ -21,27 +142,27 @@ body {
   padding-left: 1rem;
 }
 
-/* Custom page header */
+!* Custom page header *!
 .header {
   padding-bottom: 1rem;
   border-bottom: .05rem solid #e5e5e5;
 }
 
-/* Make the masthead heading the same height as the navigation */
+!* Make the masthead heading the same height as the navigation *!
 .header h3 {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 3rem;
 }
 
-/* Custom page footer */
+!* Custom page footer *!
 .footer {
   padding-top: 1.5rem;
   color: #777;
   border-top: .05rem solid #e5e5e5;
 }
 
-/* Customize container */
+!* Customize container *!
 @media (min-width: 48em) {
   .container {
     max-width: 46rem;
@@ -51,7 +172,7 @@ body {
   margin: 2rem 0;
 }
 
-/* Main marketing message and sign up button */
+!* Main marketing message and sign up button *!
 .jumbotron {
   text-align: center;
   border-bottom: .05rem solid #e5e5e5;
@@ -61,7 +182,7 @@ body {
   font-size: 1.5rem;
 }
 
-/* Supporting marketing content */
+!* Supporting marketing content *!
 .marketing {
   margin: 3rem 0;
 }
@@ -69,21 +190,22 @@ body {
   margin-top: 1.5rem;
 }
 
-/* Responsive: Portrait tablets and up */
+!* Responsive: Portrait tablets and up *!
 @media screen and (min-width: 48em) {
-  /* Remove the padding we set earlier */
+  !* Remove the padding we set earlier *!
   .header,
   .marketing,
   .footer {
     padding-right: 0;
     padding-left: 0;
   }
-  /* Space out the masthead */
+  !* Space out the masthead *!
   .header {
     margin-bottom: 2rem;
   }
-  /* Remove the bottom border on the jumbotron for visual effect */
+  !* Remove the bottom border on the jumbotron for visual effect *!
   .jumbotron {
     border-bottom: 0;
   }
 }
+*/
