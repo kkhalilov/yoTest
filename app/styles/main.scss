@@ -14,7 +14,7 @@ body {
   font-family: "Barlow Condensed";
 }
 .navbar {
-  margin: 0  80px;
+  margin: 0 80px;
   .main-logo {
     margin-left: 100px;
   }
@@ -121,27 +121,22 @@ body {
   }
 }
 .slider-nav {
-  display: flex;
-  justify-content: flex-start;
-  flex-flow: wrap column;
   .slick-list {
     padding: 0 !important;
   }
   .slick-track {
-    img {
-      margin: 0 auto;
-    }
     display: flex;
-    flex-flow: wrap row;
-    margin: 0;
+    flex-flow: column wrap;
+    transform: none !important;
   }
   .slick-slide {
-    width: 72px !important;
+    width: 77px !important;
     padding: 3px;
+    margin: 0 auto;
   }
 }
 .slider-for img {
-  height: 419px;
+  height: auto;
   width: 647px;
 }
 .on-sale-btn {
@@ -346,7 +341,7 @@ body {
   }
   .footer-thumb {
     background-color: #ffffff;
-    margin-bottom: 37px;
+    margin-bottom: 20px;
     .thumb-footer-title {
       color: #2B2B2B;
       margin: 36px 0 32px 0;
@@ -408,11 +403,6 @@ body {
     margin: 0 !important;
   }
 }
-@media (max-width: 998px) {
-  .slider-for img {
-    height: 300px;
-  }
-}
 @media (min-width: 992px) {
   .slick-thumb  {
     padding: 0;
@@ -420,15 +410,22 @@ body {
 }
 @media (max-width: 768px) {
   .slider-nav  {
-    .slick-track {
+    /*.slick-track {
       width: 290px !important;
 
       margin: 0 auto !important;
-    }
-    img {
-      margin: 0 10px !important;
-    }
+    }*/
     margin-bottom: 30px;
+  }
+  .slick-track {
+    flex-flow: wrap row !important;
+    justify-content: space-between;
+  }
+  .slider-nav img {
+    margin: 0 !important;
+  }
+  .slick-slide {
+    margin: 0 !important;
   }
 }
 /*

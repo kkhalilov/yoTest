@@ -13,8 +13,8 @@ $('.slider-nav').slick({
     slidesToScroll: 1,
     arrows: false,
     asNavFor: '.slider-for',
-    centerMode: true,
-    focusOnSelect: true
+    focusOnSelect: true,
+    centerMode: true
 });
 $(".custom-checkbox").click(function(){
     $(".custom-checkbox").removeClass("selected");
