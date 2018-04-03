@@ -16,3 +16,21 @@ $('.slider-nav').slick({
     centerMode: true,
     focusOnSelect: true
 });
+$(".custom-checkbox").click(function(){
+    $(".custom-checkbox").removeClass("selected");
+    $(this).toggleClass("selected");
+    $(".color-name").removeClass("visible-cl");
+    $(this).children().toggleClass("visible-cl");
+
+});
+$(".mob-footer-slider").slick({
+    slidesToShow: 1,
+    infinite: true,
+    dots: true,
+    customPaging : function(slider, i) {
+        return '<div class="disabled-slick-item"></div><div class="active-slick-item"></div>';
+    },
+    slidesToScroll: 1,
+    arrows: false
+});
+
