@@ -91,6 +91,7 @@ body {
   margin: 0 auto;
 }
 .slick-dots {
+  margin-top: 30px;
   padding: 0;
   display: flex;
   justify-content: space-around;
@@ -341,7 +342,6 @@ body {
   }
   .footer-thumb {
     background-color: #ffffff;
-    margin-bottom: 20px;
     .thumb-footer-title {
       color: #2B2B2B;
       margin: 36px 0 32px 0;
