@@ -16,14 +16,14 @@ $('.slider-nav').slick({
     focusOnSelect: true,
     centerMode: true
 });
-$(".custom-checkbox").click(function(){
-    $(".custom-checkbox").removeClass("selected");
-    $(this).toggleClass("selected");
-    $(".color-name").removeClass("visible-cl");
-    $(this).children().toggleClass("visible-cl");
+$('.custom-checkbox').click(function(){
+    $('.custom-checkbox').removeClass('selected');
+    $(this).toggleClass('selected');
+    $('.color-name').removeClass('visible-cl');
+    $(this).children().toggleClass('visible-cl');
 
 });
-$(".mob-footer-slider").slick({
+$('.mob-footer-slider').slick({
     slidesToShow: 1,
     infinite: true,
     dots: true,
