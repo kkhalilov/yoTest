@@ -1,5 +1,5 @@
 @import "bootstrap";
-
+@import "slick";
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
@@ -16,28 +16,22 @@ body {
 .navbar {
   margin: 0 80px;
   .main-logo {
-    margin-left: 100px;
-  }
-  .header-logo-img {
-    margin: 16px 0 16px 0;
-    line-height: 19px;
-  }
-  .navbar-brand {
-    position: relative;
-    font-size: 26px;
-    padding: 0 0 0 35px;
-    margin-left: 4px;
-  }
-  .navbar-brand:before {
-    background: url("../images/microsoft.png") no-repeat;
-    width: 34px;
-    height: 34px;
-    content: '';
-    left: -4px;
-    top: 4px;
-    position: absolute;
+    display: flex;
+    width: 120px;
+    height: auto;
+    .windows-icon {
+      background: url("../images/microsoft.png") no-repeat;
+      width: 34px;
+      height: 34px;
+      margin-right: 4px;
+      margin-top: 2px;
+    }
+    .navbar-brand-text {
+      font-size: 26px;
+    }
   }
   .navbar-collapse {
+    padding-top: 6px;
     text-transform: uppercase;
     .nav-link {
       color: #2B2B2B;
@@ -45,7 +39,7 @@ body {
       font-weight: 600;
       line-height: 19px;
     }
-    .navbar-nav {
+    .main-menu {
       display: flex;
       justify-content: space-between;
       width: 895px;
@@ -77,13 +71,23 @@ body {
         color: #9e9e9e !important;
       }
     }
-    .sign-in {
-      cursor: pointer;
-      margin-right: 10px;
-      font-weight: 600;
-    }
-    .fa-cart-arrow-down {
+  }
+  .sign-in {
+    cursor: pointer;
+    margin-right: 10px;
+    vert-align: middle;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .mob-search-nav {
+    list-style: none;
+      .fa-search {
+        color: #959595;
+        font-size: 30px;
+      }
+    .fa-shopping-cart {
       color: #959595;
+      font-size: 30px;
     }
   }
 }
@@ -391,18 +395,18 @@ body {
   }
 }
 @media only screen and (max-width: 1350px) {
-    .navbar-nav {
+    .main-menu {
       width: 650px !important;
     }
 }
 @media only screen and (max-width: 1095px) {
-  .navbar-nav {
-    width: 550px !important;
+  .main-menu {
+    width: 600px !important;
   }
 }
-@media only screen and (max-width: 1095px) {
-  .navbar-nav {
-    margin: 0 !important;
+@media only screen and (max-width: 1040px) {
+  .main-menu {
+    width: 550px !important;
   }
 }
 @media (min-width: 992px) {
@@ -428,6 +432,25 @@ body {
   }
   .slick-slide {
     margin: 0 !important;
+  }
+}
+@media (max-width: 992px) {
+  .main-logo  {
+    margin-left: 40px !important;
+  }
+}
+@media (max-width: 380px) {
+  .main-logo  {
+    margin: 0 !important;
+  }
+  .mob-search-nav {
+    padding: 0;
+    .fa-search {
+      font-size: 25px !important;
+    }
+    .fa-shopping-cart {
+      font-size: 25px !important;
+    }
   }
 }
 /*
